@@ -1,0 +1,105 @@
+#btnjogar{
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 7em;
+    height: 2em;
+    line-height: 2em;
+    margin: auto;
+    margin-top: 1em;
+    user-select: none;
+    margin-top: 3em;
+}
+
+.btnativo{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.btninativo{
+    background-color: lightgray;
+    color: #eeeeee;
+}
+.casa{
+    min-width: 3em;
+    height: 2em;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 0.2em;
+    display: inline-block;
+    line-height: 2em;
+    text-align: center;
+    user-select: none;
+}
+
+#inicio{
+  background: red;
+  color: white;
+  margin-right: 1em;
+}
+
+#fim{
+  background-color: blue;
+  color: white;
+  margin-left: 1em;
+}
+
+
+.casaAtual{
+  border: 2px solid black;
+}
+
+.acertos{
+  border: 2px solid blue;
+}
+
+.marcado{
+  border: 3px solid blue;
+}
+
+.marcado2{
+  border: 3px solid red;
+}
+
+.marcado3{
+  border: 3px solid black;
+}
+
+.error{
+  border: 2px solid red;
+}
+
+.mos{
+  color:red;
+  text-align:center;
+  margin-left:900px;
+}
+
+.vitoria{
+  background-color:blue;
+  border:3px solid green;
+  border-radius:10px;
+  text-align:center;
+  width:500px;
+  color: white;
+  font-size: 28px;
+  margin-top: 100px;
+  height: 70px;
+}
+
+.derrota{
+
+  background-color:red;
+  border:3px solid black;
+  border-radius:10px;
+  text-align:center;
+  width:500px;
+  color: white;
+  font-size: 28px;
+  margin-top: 100px;
+  height: 70px;
+
+}
